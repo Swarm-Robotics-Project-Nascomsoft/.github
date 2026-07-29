@@ -13,7 +13,7 @@
 
 ##  About The Organization
 
-Welcome to our **Swarm Robotics** project developed by the [Nascomsoft](https://nascomsoft.com/){:target="_blank"} Embedded Systems Team. Our mission is to build a highly optimized, low-latency robotic fleet controlled by a centralized "Brain." Inspired by [Carnegie Mellon's PARROT project](https://github.com/PARROT-Capstone){:target="_blank"}, this ecosystem relies on an overhead computer vision system, a high-speed 4D A* path planner, and lightweight robot nodes operating over a local UDP network. 
+Welcome to our **Swarm Robotics** project developed by the [Nascomsoft](https://nascomsoft.com/) Embedded Systems Team. Our mission is to build a highly optimized, low-latency robotic fleet controlled by a centralized "Brain." Inspired by [Carnegie Mellon's PARROT project](https://github.com/PARROT-Capstone), this ecosystem relies on an overhead computer vision system, a high-speed 4D A* path planner, and lightweight robot nodes operating over a local UDP network. 
 
 By offloading heavy computation to a central PC, our physical robots are incredibly lightweight, affordable, and capable of operating in dense swarms without localized collisions.
 
