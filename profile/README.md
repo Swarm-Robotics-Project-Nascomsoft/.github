@@ -1,13 +1,11 @@
 <div align="center">
 
-#  Centralized Multi-Robot System
+#  Swarm Robotics Project - Nascomsoft
 **High-Speed Sense-Plan-Act Architecture for Autonomous Robotics**
 
 [![Status: Active Development](https://img.shields.io/badge/Status-Active_Development-brightgreen?style=for-the-badge)](#)
 [![Architecture: Centralized](https://img.shields.io/badge/Architecture-Centralized_PC--Driven-blue?style=for-the-badge)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](#)
-
-<img src="https://via.placeholder.com/800x200/1a365d/ffffff?text=Add+Your+Project+Banner+Image+Here" alt="Project Banner" width="100%">
 
 </div>
 
@@ -15,7 +13,7 @@
 
 ##  About The Organization
 
-Welcome to the **Centralized Multi-Robot System** project. Our mission is to build a highly optimized, low-latency robotic fleet controlled by a centralized "Brain." Inspired by [Carnegie Mellon's PARROT project](https://github.com/PARROT-Capstone), this ecosystem relies on an overhead computer vision system, a high-speed 4D A* path planner, and lightweight robot nodes operating over a local UDP network. 
+Welcome to our **Swarm Robotics** project developed by the [Nascomsoft](https://nascomsoft.com/){:target="_blank"} Embedded Systems Team. Our mission is to build a highly optimized, low-latency robotic fleet controlled by a centralized "Brain." Inspired by [Carnegie Mellon's PARROT project](https://github.com/PARROT-Capstone){:target="_blank"}, this ecosystem relies on an overhead computer vision system, a high-speed 4D A* path planner, and lightweight robot nodes operating over a local UDP network. 
 
 By offloading heavy computation to a central PC, our physical robots are incredibly lightweight, affordable, and capable of operating in dense swarms without localized collisions.
 
