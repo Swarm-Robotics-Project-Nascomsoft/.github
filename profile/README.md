@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 Centralized Multi-Robot System
+#  Centralized Multi-Robot System
 **High-Speed Sense-Plan-Act Architecture for Autonomous Robotics**
 
 [![Status: Active Development](https://img.shields.io/badge/Status-Active_Development-brightgreen?style=for-the-badge)](#)
@@ -13,31 +13,31 @@
 
 ---
 
-## 🌍 About The Organization
+##  About The Organization
 
-Welcome to the **Centralized Multi-Robot System** project. Our mission is to build a highly optimized, low-latency robotic fleet controlled by a centralized "Brain." Inspired by Carnegie Mellon's PARROT project, this ecosystem relies on an overhead computer vision system, a high-speed 4D A* path planner, and lightweight robot nodes operating over a local UDP network. 
+Welcome to the **Centralized Multi-Robot System** project. Our mission is to build a highly optimized, low-latency robotic fleet controlled by a centralized "Brain." Inspired by [Carnegie Mellon's PARROT project](https://github.com/PARROT-Capstone), this ecosystem relies on an overhead computer vision system, a high-speed 4D A* path planner, and lightweight robot nodes operating over a local UDP network. 
 
 By offloading heavy computation to a central PC, our physical robots are incredibly lightweight, affordable, and capable of operating in dense swarms without localized collisions.
 
 ---
 
-## 🏗️ System Architecture & Repositories
+##  System Architecture & Repositories
 
 Our organization is divided into three core pillars. Each repository contains specific documentation for its respective domain.
 
-### 🧠 1. [Motion & Vision (The Brain)](https://github.com/YourOrg/motion-vision-controller)
+###  1. [Motion & Vision (The Brain)](https://github.com/Swarm-Robotics-Project-Nascomsoft/motion-vision-controller)
 **The centralized command center running on the host PC.**
 *   **Vision:** Uses an overhead camera and OpenCV ArUco tracking to pinpoint robot and payload coordinates (X, Y, Theta) in real-world millimeters.
 *   **Motion Planner:** A highly parallelized 4D A* search algorithm written in C++ that calculates collision-free routing in real-time.
 *   **Controller:** A Python-based feedforward/feedback controller utilizing cubic Hermite splines to guarantee smooth kinematics and UDP network broadcasting.
 
-### ⚡ 2. [Robot Firmware (The Nerves)](https://github.com/YourOrg/robot-firmware)
+###  2. [Robot Firmware (The Nerves)](https://github.com/Swarm-Robotics-Project-Nascomsoft/firmware)
 **The low-level C/C++ code executing on the microcontrollers.**
 *   **Networking:** Handles low-latency UDP packet reception and implements dead-man switch failsafes.
 *   **Kinematics:** Translates global velocity vectors into localized Left/Right wheel speeds.
 *   **Hardware Control:** Manages localized PID loops using wheel encoders and toggles payload mechanisms (electromagnets).
 
-### ⚙️ 3. [Robot Hardware (The Muscle)](https://github.com/YourOrg/robot-hardware)
+###  3. [Robot Hardware (The Muscle)](https://github.com/Swarm-Robotics-Project-Nascomsoft/hardware)
 **The physical manifestation of the robots.**
 *   **Mechanical:** 3D CAD files for the chassis, motor mounts, and the payload handling mechanisms.
 *   **Electrical:** Custom PCB schematics, motor driver integration, and battery management logic.
@@ -45,7 +45,7 @@ Our organization is divided into three core pillars. Each repository contains sp
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 We leverage a hybrid stack to maximize performance where it matters, and maintain readability where it doesn't. 
 
@@ -65,11 +65,11 @@ We leverage a hybrid stack to maximize performance where it matters, and maintai
 
 ---
 
-## 🚀 Quick Start for New Contributors
+##  Quick Start for New Contributors
 
 If you have just been added to the GitHub organization, follow these steps to get your local environment running:
 
 1. **Pick Your Domain:** Request access to the specific repository you are assigned to (Vision/Motion, Firmware, or Hardware).
 2. **Clone the Repo:** 
    ```bash
-   git clone [https://github.com/YourOrg/](https://github.com/YourOrg/)[repository-name].git
+   git clone [https://github.com/Swarm-Robotics-Project-Nascomsoft/](https://github.com/Swarm-Robotics-Project-Nascomsoft)[repository-name].git
